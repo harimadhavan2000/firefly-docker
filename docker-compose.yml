@@ -30,7 +30,7 @@ services:
       - app
     environment:
       - DOMAIN=app
-      - PORT=80
+      - PORT=8080
       - AUTH_TOKEN=2GrZaLntHmQjQr8wDCrBxp36sJN_66BVjnrBqt8PJny1Sb7KU
     
 volumes:
