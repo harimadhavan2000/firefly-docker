@@ -27,7 +27,7 @@ services:
     ports:
       - 4551:4551
     links:
-      - web
+      - app
     environment:
       - DOMAIN=app
       - PORT=80
